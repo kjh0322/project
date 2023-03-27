@@ -1,0 +1,164 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{padding:0; margin:0;}
+
+body{
+	font:15px 'Gothic A1', sans-serif;
+	color:#222;
+}
+
+a{
+	text-decoration:none;
+	color:#222;
+}
+
+/*section style*/
+section{ 
+	width:100%;
+	position:absolute;
+	top:90px;
+}
+
+section .contentWrap{
+	width:100%;
+	height:180px;
+	margin-bottom:70px;
+	background:#f3f9fe;	
+}
+/*section style 끝*/
+
+/*section top 상세스타일*/
+.top{
+	position:relative;
+	width:1050px;
+	height:200px;
+	margin:0 auto;
+}
+
+.top .content{
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	margin:0 auto;
+}
+
+.top .content p{
+	font-size:2.4em;
+	letter-spacing:2px;
+	font-weight:500;
+}
+
+.top .content strong{font-weight:800;}
+
+.top .content span{
+	display:block;
+	font-size:1.4em;
+	font-weight:700;
+	text-align:center;
+	color:#777;
+	padding:15px 0;
+}
+
+.top .img{
+	position:absolute;
+	right:0;
+}
+/*section top 상세스타일 끝*/
+
+/*section main 상세스타일*/
+.main{
+	width:1300px;
+	margin:0 auto;
+}
+
+.main img{
+	display:block;
+	margin:auto;
+}
+
+.main strong{
+	display:block;
+	font-size:2.2em;
+	font-weight:700;
+	letter-spacing:2px;
+	margin-top:70px;
+	margin-bottom:30px;
+	text-align:center;
+}
+
+.main span{color:#00b6c0;}
+
+.main p{
+	font-size:1.55em;
+	font-weight:600;
+	letter-spacing:2px;
+	text-align:center;
+	line-height:2;
+	color:#777;
+}
+
+input,
+.button{
+	text-align:center;
+	display:block;
+	margin:0 auto;
+	outline:none;
+	font-size:1.8em;
+	color:#294483;
+	background:white;
+	font-weight:600;
+	border:2px solid #294483;
+	padding:20px;
+	letter-spacing:1px;
+	box-sizing:border-box;
+	margin-top:40px;
+}
+
+input:hover,
+.button:hover{
+	text-align:center;
+	display:block;
+	margin:0 auto;
+	outline:none;
+	font-size:1.8em;
+	color:white;
+	background:#294483;
+	font-weight:600;
+	border:2px solid #294483;
+	padding:20px;
+	letter-spacing:1px;
+	box-sizing:border-box;
+	margin-top:40px;
+}
+
+input{width:200px;}
+
+.button{width:300px;}
+/*section main 상세스타일 끝*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

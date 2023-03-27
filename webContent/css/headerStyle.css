@@ -1,0 +1,115 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{padding:0; margin:0;}
+
+a{
+	text-decoration: none;
+	color:#222;
+}
+
+ul{list-style:none;}
+
+/*header style*/
+header{
+	font:15px 'Gothic A1', sans-serif;
+	color:#222;
+	background:white;
+	position:fixed;
+	width:100%;
+	height:70px;
+	padding:10px 0;
+	z-index:999;
+}
+
+/*header 상세 스타일*/
+header .contentWrap{
+	width:1580px;
+	height:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+/*로고 상세 스타일*/
+.logo{
+	width:190px;
+	height:50px;
+	position:absolute;
+	left:0;
+	top:50%;
+	transform:translateY(-50%);
+}
+
+/*nav 상세 스타일*/
+.nav{
+	width:1220px;
+	height:50px;
+	position:absolute;
+	right:0;
+	top:50%;
+	transform:translateY(-50%);
+}
+
+.nav .left{
+	width:870px;
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+}
+
+.nav .left ul{overflow:auto;}
+
+.nav .left ul li{
+	float:left;
+	margin-right:40px;
+	font-weight:700;
+	font-size:1.5em;
+}
+
+.nav .left ul li:last-child{margin-right:0;}
+
+.nav .left ul li a{
+	display:block;
+	padding:10px;
+}
+
+.nav .right{
+	position:absolute;
+	right:0;
+	top:50%;
+	transform:translateY(-50%);
+}
+
+.nav .right ul{overflow:auto;}
+
+.nav .right ul li{
+	float:left;
+	font-weight:600;
+	letter-spacing:1.3px;
+	color:#aaa;
+	font-size:1.15em;
+	box-sizing:border-box;
+	position:relative;
+}
+
+.nav .right ul li:nth-child(1):after{
+	content:"";
+	position:absolute;
+	height:15px;
+	border-right:1px solid #aaa;
+	top:50%;
+	transform:translateY(-50%);
+}
+
+.nav .right ul li span{color:#2f9fd1;}
+
+.nav .right ul li a{
+	color:#aaa;
+	display:inline-block;
+	padding:15px 0;
+}
+
+.nav .right ul li:nth-child(1) a{padding-right:8px;}
+
+.nav .right ul li:nth-child(2) a{padding-left:8px;}
+/*header 상세 스타일 끝*/
+

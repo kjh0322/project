@@ -1,0 +1,121 @@
+@charset "UTF-8";
+*{padding:0; margin:0;}
+
+body{
+	font:16px "맑은 고딕";
+	color:#222;
+}
+
+a{
+	text-decoration:none;
+	color:#222;
+}
+
+/*공통 영역*/
+h1{
+	width:90%;
+	margin:0 auto;
+	text-align:center;
+	color:#7dbaef;
+	margin-top:50px;
+	margin-bottom:25px;
+	font-size:2.5em;
+}
+
+table{
+	width:1000px;
+	margin:0 auto;
+	border-collapse:collapse;
+}
+
+table th, td{
+	border:1px solid #ddd;
+	border-collapse:collapse;
+	padding:10px;
+}
+
+th{
+	background:#61a1d9;
+	color:#e0ebf4;
+}
+
+/*list 영역*/
+.list tr:nth-child(1) td{
+	border:none;
+	text-align:right;
+	padding-top:0;
+	font-weight:510;
+}
+
+.list td{text-align:center;}
+
+/*top 영역*/
+.top h1{padding-bottom:30px}
+
+/*add 영역*/
+.add th{width:150px;}
+.add td{padding:10px 25px;}
+.add input, 
+.add textarea{
+	outline:none;
+	padding:5px;
+	width:800px;
+}
+
+/*subBtn 영역*/
+.subBtn{
+	text-align:center;
+	padding:30px;
+}
+.subBtn input{
+	width:120px;
+	padding:10px 0;
+	margin-right:50px;
+	font-size:17px;
+	border-radius:15px;
+	border:3px solid #61a1d9;
+	background:#61a1d9;
+	font-weight:bold;
+	color:#e0ebf4;
+	letter-spacing:2px;
+}
+.subBtn input:hover{
+	background:#e0ebf4;
+	color:#61a1d9;
+	border:3px solid #61a1d9;
+}
+.subBtn input:last-child{margin-right:0;}
+
+/*update 영역*/
+.update th{width:120px;}
+.update td{padding:5px 10px;}
+.update input, 
+.update textarea{
+	outline:none;
+	padding:5px;
+	width:600px;
+}
+.update textarea{line-height:1.5;}
+
+/*img 영역*/
+.img{width:200px;}
+.img img{
+	width:210px;
+	height:100%;
+	vertical-align: middle;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

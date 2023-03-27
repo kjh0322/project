@@ -1,0 +1,273 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{padding:0; margin:0;}
+
+body{
+	font:22px 'Gothic A1', sans-serif;
+	color:#222;
+}
+
+a{
+	text-decoration:none;
+	color:#222;
+}
+
+section{
+	width:100%;
+	position:absolute;
+	top:90px;
+}
+
+/*topBtn style*/
+#topBtn{
+	width:50px;
+	height:50px;
+	position:fixed;
+	bottom:10px;
+	right:10px;
+}
+/*레이아웃 스타일 끝*/
+
+/*공통 영역*/
+p{
+	text-align:center;
+	font-weight:700;
+	color:#7dbaef;
+	margin:30px 0;
+	font-size:40px;
+}
+
+table{
+	width:1200px;
+	margin:0 auto;
+	border-collapse:collapse;
+}
+
+table th, td{
+	border:1px solid #ddd;
+	border-collapse:collapse;
+	padding:10px;
+}
+
+th{
+	background:#61a1d9;
+	color:#e0ebf4;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"]{
+	width:130px;
+	color:#e0ebf4;
+	background:#61a1d9;
+	font-size:22px;
+	font-weight:700;
+	border:1px solid #61a1d9;
+	padding:13px;
+	letter-spacing:1px;
+	margin-top:30px;
+	border-radius:5px;
+	box-sizing:border-box;
+}
+
+input[type="submit"],
+input[type="reset"]{margin-right:18px;}
+/*공통 영역 끝*/
+
+/*list 영역*/
+.list .sec td{padding-top:80px;}
+.list td{text-align:center;}
+
+.list .left{
+	border:none;
+	text-align:left;
+	font-weight:700;
+	font-size:24px;
+	padding-left:0;
+	color:#294483;
+}
+
+.list .right{
+	border:none;
+	text-align:right;
+	font-weight:600;
+	padding-right:0;
+}
+
+.list tr:last-child th{
+	background:none;
+	border:none;
+}
+.list input[type="button"]{
+	width:250px;
+	color:#e0ebf4;
+	background:#61a1d9;
+	font-size:22px;
+	font-weight:700;
+	border:1px solid #61a1d9;
+	padding:13px;
+	letter-spacing:1px;
+	margin-top:35px;
+	border-radius:5px;
+	box-sizing:border-box;
+}
+/*list 영역 끝*/
+
+/*etc 영역*/
+.etc{
+	margin-top:40px;
+	width:870px;
+}
+
+.etc th, td{padding:15px;}
+.etc td{width:550px;}
+
+.etc tr:last-child th{
+	border:none;
+	background:none;
+}
+/*etc 영역 끝*/
+
+/*update 영역*/
+.update td{
+	border:none;
+	padding:5px 10px;
+}
+.update .img{
+	width:350px;
+	padding:20px;
+	box-sizing:border-box;
+}
+
+.update th{
+	width:120px;
+	font-size:20px;
+}
+
+.update tr:first-child th:first-child,
+.update tr:last-child th{
+	background:none;
+	border:none;
+}
+
+.update input[type="text"]{
+	border:2px solid #aaa;
+	border-radius:5px;
+	padding:7px 15px;
+	width:600px;
+	box-sizing:border-box;
+	outline:none;
+	font-size:19px;
+	font-weight:600;
+	margin:0 10px;
+	
+}
+
+.update input[type="file"]{
+	padding:10px 15px;
+	width:550px;
+	box-sizing:border-box;
+	outline:none;
+	font-size:21px;
+	font-weight:600;
+}
+
+.update span{
+	display:block;
+	margin:5px 10px;
+	font-size:19px;
+	color:#de6969;
+	font-weight:600;
+	letter-spacing:2px;
+}
+
+/*update 영역 끝*/
+
+/*add 영역*/
+.add{width:870px;}
+
+.add th{
+	width:130px;
+	font-size:20px;
+}
+
+.add tr:last-child th{
+	background:none;
+	border:none;
+}
+
+.add input[type="text"]{
+	border:2px solid #aaa;
+	border-radius:5px;
+	padding:7px 15px;
+	width:600px;
+	box-sizing:border-box;
+	outline:none;
+	font-size:19px;
+	font-weight:600;
+	margin:0 10px;
+	
+}
+
+.add input[type="file"]{
+	padding:10px 15px;
+	width:550px;
+	box-sizing:border-box;
+	outline:none;
+	font-size:21px;
+	font-weight:600;
+}
+/*add 영역 끝*/
+
+/*rs 영역*/
+.rs{width:870px;}
+
+.rs th{width:170px;}
+
+.rs tr:last-child th{
+	background:none;
+	border:none;
+}
+
+.rs input[type="radio"]{margin:0 5px 0 10px;}
+.rs input[type="radio"]:last-child{margin-left:25px;}
+
+.rs input[type="text"],
+.rs select{
+	border:2px solid #aaa;
+	border-radius:5px;
+	padding:10px;
+	width:430px;
+	box-sizing:border-box;
+	outline:none;
+	font-size:20px;
+	font-weight:500;
+	letter-spacing:2.5px;
+}
+
+.rs input[name="year"],
+.rs input[name="month"],
+.rs select[name="month"],
+.rs input[name="day"],
+.rs input[name="rsy"],
+.rs select[name="rsm"],
+.rs input[name="rsd"]{width:170px;}
+
+.rs select[name="rsh"],
+.rs select[name="rsmin"]{width:230px;}
+
+
+.rs textarea{
+	width:620px;
+	border:2px solid #aaa;
+	border-radius:5px;
+	padding:10px;
+	box-sizing:border-box;
+	outline:none;
+	font-size:22px;
+	font-weight:600;
+	letter-spacing:1.5px;
+	line-height:1.5;
+}
+/*rs 영역 끝*/

@@ -1,0 +1,284 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{padding:0; margin:0;}
+
+body{
+	font:15px 'Gothic A1', sans-serif;
+	color:#222;
+}
+
+a{
+	text-decoration:none;
+	color:#222;
+}
+
+ul{list-style:none;}
+
+/*section style*/
+section{ 
+	width:100%;
+	position:absolute;
+	top:90px;
+}
+
+section .contentWrap{
+	width:100%;
+	height:180px;
+	margin-bottom:70px;
+	background:#f3f9fe;	
+}
+/*section style 끝*/
+
+/*section top 상세스타일*/
+section .top{
+	position:relative;
+	width:1050px;
+	height:200px;
+	margin:0 auto;
+}
+
+.top .content{
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	margin:0 auto;
+}
+
+.top .content p{
+	font-size:2.4em;
+	letter-spacing:2px;
+	font-weight:500;
+}
+
+.top .content strong{font-weight:800;}
+
+.top .content span{
+	display:block;
+	font-size:1.4em;
+	font-weight:700;
+	text-align:center;
+	padding:15px 0;
+	letter-spacing:2px;
+	line-height:1.3;
+	color:#777;
+}
+
+.top .img{
+	position:absolute;
+	right:0;
+}
+/*section top 상세스타일 끝*/
+
+/*section form 상세스타일*/
+section .main{
+	width:1050px;
+	margin:0 auto;
+}
+
+.middle{
+	position:relative;
+	width:100%;
+	height:40px;
+	margin-bottom:15px;
+}
+
+.input,
+.notice{position:absolute;}
+
+.input img,
+.notice img{
+	vertical-align:middle;
+	padding-right:5px;
+}
+
+.input{
+	top:50%;
+	transform:translateY(-50%);
+}
+
+.input strong{
+	display:block;
+	font-size:1.8em;
+	font-weight:700;
+	letter-spacing:2px;
+}
+
+
+.notice{
+	right:0;
+	top:50%;
+	transform:translateY(-50%);
+}
+
+.notice span{
+	font-size:17px;
+	font-weight:700;
+	letter-spacing:2px;
+	margin-bottom:15px;
+	color:#de6969;
+}
+
+table{
+	border-top:3.2px solid #c7c7c7;
+	width:100%;
+	font-size:1.65em;
+	font-weight:500;
+	
+}
+table tr td{
+	border-bottom:1px solid #ddd;
+	border-collapse:collapse;
+	height:55px;
+	font-weight:700;
+	padding:15px;
+	position:relative;
+}
+
+table tr td:first-child{
+	width:260px;
+	letter-spacing:2px;
+	padding:15px 25px;
+	background:#f1f1f1;
+	box-sizing:border-box;
+}
+
+table tr td span{
+	color:red;
+	margin-right:5px;
+}
+
+table tr th{
+	background:white;
+	border:none;
+	padding:15px 25px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="hidden"],
+form select[name="month"],
+form select[name="email2"]{
+	border:2px solid #aaa;
+	border-radius:5px;
+	padding:10px;
+	width:430px;
+	box-sizing:border-box;
+	outline:none;
+	font-size:20px;
+	font-weight:500;
+	letter-spacing:2.5px;
+}
+
+.box{
+	position:relative;
+	width:100%;
+	box-sizing:border-box;
+}
+
+.inR{
+	position:absolute;
+	right:10px;
+	top:50%;
+	transform:translateY(-50%);
+}
+
+input[type="button"]{
+	border:2px solid #aaa;
+	border-radius:5px;
+	padding:7.5px 5px;
+	width:140px;
+	box-sizing:border-box;
+	outline:none;
+	font-size:22px;
+	font-weight:600;
+	letter-spacing:3px
+}
+
+/*에러메세지*/
+#alertTxt{
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	right:60px;
+	font-size:19px;
+	color:red;
+	font-weight:600;
+	display:none;
+}
+
+.error_next_box{
+	margin-top:12px;
+	font-size:20px;
+	color:red;
+	display:none;
+}
+/*에러메세지 끝*/
+
+input[type="radio"]{margin:0 5px 0 10px;}
+input[type="radio"]:last-child{margin-left:25px;}
+
+input[name="year"],
+form select[name="month"],
+input[name="day"]{
+	width:200px;
+	margin-right:10px;
+}
+
+input[name="email1"],
+input[name="email2"],
+form select[name="email2"]{width:230px;}
+
+form select[name="email2"]{text-align:center;}
+
+input[type="submit"]{
+	width:200px;
+	color:white;
+	background:#294483;
+	font-weight:600;
+	border:2px solid #294483;
+	font-size:1.05em;
+	padding:20px 30px;
+	letter-spacing:1px;
+	margin:30px 0;
+	box-sizing:border-box;
+}
+
+input[type="reset"]{
+	width:200px;
+	color:#294483;
+	background:white;
+	font-weight:600;
+	border:2px solid #294483;
+	font-size:1.05em;
+	padding:20px 30px;
+	letter-spacing:1px;
+	box-sizing:border-box;
+}
+/*section form 상세스타일 끝*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
